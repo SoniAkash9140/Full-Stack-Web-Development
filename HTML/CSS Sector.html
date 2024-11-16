@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> CSS SELECCTORS</title>
+    <style>
+        
+        div{
+            color: bisque;
+            background-color: rgb(71, 138, 82);
+        }
+        .red{
+            background-color: brown;
+        }
+        #green{
+            color: rgb(63, 23, 36);
+            background-color: bisque;
+        }
+        div>p{
+            color: blue;background-color: bisque;
+
+        }
+
+        div p{
+            color: black; background-color: rgb(57, 201, 81);
+        }
+        *{
+            margin:0;
+            padding:0;
+        }
+        a:link{
+            color: rgb(26, 27, 27);
+            background-color:royalblue;
+        }
+        a.active{
+            background-color: blueviolet;
+        }
+        a:hover{
+            background-color: rgb(193, 4, 133);
+        }
+    </style>
+</head>
+<body>
+    <div>I am Element Selector</div>
+    <div class="red"> I am Class Selector</div>
+    <div id="green"> I am ID Selector</div>
+    <div><p> I am Child Selector</p></div>
+    <a href="https://www.youtube.com/"> Go yo YouTube </a>....<br>
+    <a href="https://www.google.com/"> Go to Google</a>....<br>
+    <a href="https://www.facebook.com/"> Go to facebook</a>....<br>
+    <a href="https://mail.google.com/mail/u/0/#inbox"> Go to gmail</a>
+</body>
+</html>
