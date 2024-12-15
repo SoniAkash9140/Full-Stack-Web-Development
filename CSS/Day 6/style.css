@@ -23,3 +23,33 @@ h1{
 .upvote{
     color: blueviolet;
 }
+
+/* descendant selector */
+p a {
+    color: purple;
+    background-color:yellow;
+}
+
+/*  Sibling combinator */
+.upvote + button {
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child Combinator */
+div > button{
+    background-color: darksalmon;
+}
+/* attribute selector */
+
+input[type="text"]{
+    color: red;
+}
+
+input [type="password"]{
+    color: blue;
+}
+
+h1::first-letter{
+    color: green;
+}  
