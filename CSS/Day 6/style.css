@@ -1,0 +1,25 @@
+/* Universal Selector */
+*{         
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} 
+
+/* Elenment Selector */
+h3{
+    color: aqua;
+}
+h1{
+    color: brown;
+}
+
+/* Id Selector*/
+#login{
+    color:rebeccapurple;
+}
+#signup{
+    color: rgb(57, 34, 1);
+}
+
+/* Class Selector */
+.upvote{
+    color: blueviolet;
+}
