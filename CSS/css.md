@@ -14,3 +14,10 @@
 <head>
     <link rel="stylesheet" href="style.css">
 </head>
+
+#Box Model-
+1-height
+2-width
+3-border-border-width , border-style , border-color . 
+*border sides- border left , bordr right , border top , border bottom .
+*border-radius- for curve  
