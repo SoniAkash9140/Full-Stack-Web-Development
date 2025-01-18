@@ -1,0 +1,79 @@
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+
+
+    /* animation-name: fontAnimation;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate;
+
+    animation-name: colorAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+
+    animation: many 3s ease-in 0s infinite normal;
+
+
+    /* animation-name: widthAnimate;
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+    animation-delay: 0;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+    /* animation: widthAnimate 3s ease-in 0s infinite normal; */
+
+    animation: color 3s ease-in 0s 2 reverse ;
+}
+
+/* @keyframes fontAnimation{
+    from{font-size: 20px;}
+    to{font-size:40px;}
+}
+
+@keyframes colorAnimate{
+    from{background-color: green;}
+    to{background-color: blue;}
+} */
+
+/* #For more thanone properties-- */
+@keyframes many{
+    from{
+        font-size: 20px;
+        background-color: aqua;
+    }
+    to{
+        font-size: 40px;
+        background-color: green;
+        border-radius: 15px;
+    }
+}
+
+@keyframes widthAnimate{
+    from{width: 100px;}
+    to{width: 200px;}
+}
+
+
+/*  %age in Animation */
+
+@keyframes color{
+    0%{
+        background-color: aliceblue;
+    }
+    25%{
+        background-color: antiquewhite;
+    }
+    50%{
+        background-color: aqua;
+    }
+    100%{
+        background-color: azure;
+    }
+}
