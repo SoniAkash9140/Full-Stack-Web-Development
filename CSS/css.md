@@ -11,9 +11,9 @@
 
 
 *Linking HTML with CSS File
-<head>
+
     <link rel="stylesheet" href="style.css">
-</head>
+
 
 #Box Model-
 1-height
