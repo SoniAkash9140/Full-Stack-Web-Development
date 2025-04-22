@@ -1,1 +1,5 @@
-.container{border: 5px  solid rgb(121, 96, 96); }
+.row{border: 5px  solid rgb(121, 96, 96); }
+
+.container{background-color: rgb(121, 96, 96);}
+
+.col,.col-3,.col-6{border: 2px solid blue}

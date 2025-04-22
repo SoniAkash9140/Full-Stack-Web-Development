@@ -1,0 +1,7 @@
+.container{border: 5px SOLID red;}
+.col,.col-3,.col-6,.col-2,.col-12,.col-9,.col-4{border: 3px SOLID yellow;}
+body{background-color: grey;}
+#header{background-color: pink;}
+#menu{background-color: rgb(33, 243, 239);}
+#content{background-color: white;}
+#footer{background-color: pink;}

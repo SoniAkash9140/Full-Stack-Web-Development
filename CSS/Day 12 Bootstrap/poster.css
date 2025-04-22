@@ -1,0 +1,11 @@
+.container{border: 5px solid grey;}
+.col-12{border: 2px solid black;}
+#header{background: pink;}
+#menu{background: lightblue;}
+ul{list-style: none;}
+ul li{display: inline; padding: 50px;}
+body{background-color: grey;}
+#content{background: white;}
+.col-9{border: 2px solid blue;}
+.col-3{border: 2px solid blue;}
+#footer{border: 5px solid purple; background: pink;}
