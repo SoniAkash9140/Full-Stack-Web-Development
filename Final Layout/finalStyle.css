@@ -1,0 +1,11 @@
+.container{border: 5px solid red;}
+.col-12, .col-6,.col-md-3{border: 2px solid orange;}
+#header{background-color: rgb(209, 174, 109);}
+#menu{background-color: rgb(71, 145, 170);}
+#menu ul li {display: inline; padding: 50px;}
+#card{background-color: grey;}
+.pink{background-color: pink;}
+#list{background-color: yellow;}
+#train{background-color: rgb(8, 103, 8);}
+#inst{background-color: rgb(163, 97, 163);}
+#footer{background-color: rgb(209, 174, 109);}
